@@ -1,0 +1,212 @@
+*{
+      margin: 0;
+}
+#hoja_container{
+      width: 100vw;
+      height: 100vh;
+}
+#img_perfil img{
+      margin-top: 10%;
+      width: 50%;
+      border-radius: 15px;
+      
+}
+#img_perfil{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+#name_p{
+      margin-top: -8%;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.651);
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2em;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+}
+#nav{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      width: 100%;
+      
+}
+#but_p{
+      display: none;
+}
+#butt1, #butt2, #butt3, #butt4{
+      width: 4em;
+      background-color: black;
+      border-radius: 5px;
+      
+}#butt1 i, #butt2 i,  #butt3 i, #butt4 i{
+      color: white;
+      font-size: 1.2em;
+}
+.options{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      height: 3em;
+      flex-wrap: wrap;
+}
+.about{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+      display: none;
+}
+#info_about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5%;
+      gap: 10px;
+      margin-top: 3%;
+}
+#info_about p{
+      display: flex;
+      text-align: justify;
+      line-height: 25px;
+}
+#info_about h2{
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 1.7em;
+      font-size: 1.2em;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#name_{
+      font-size: 1.4em;
+}
+#info_personal{  
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
+      gap: 10px;
+      width: 90%;
+}
+#info_personal h2{
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 1.7em;
+      font-size: 1.2em;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}#info_personal p{
+      padding: 2%;
+      margin-left: 3%;
+}.active{
+      display: flex;
+}
+@media screen and (min-width: 500px) {
+      #name_p{
+            margin-top: -6%;
+      }
+      #butt1, #butt2, #butt3, #butt4 {
+            width: 6em;
+      }
+      #butt1 i, #butt2 i, #butt3 i, #butt4 i{
+            font-size: 1.5em;
+      }
+      #about{
+            margin-top: 8%;
+      }
+      #name_ {
+            font-size: 1.8em;
+      }
+      #info_about p{
+            font-size: 1.2em;
+            margin-top: 5%;
+            line-height: 30px;
+      }
+      #info_about h2{
+            font-size: 1.4em;
+      }
+      #info_personal h2{
+            font-size: 1.4em;
+      }
+      #info_personal p{
+            font-size: 1.2em;
+      }
+}
+@media screen and (min-width: 720px) {
+      #hoja_container{
+            display: flex;
+      }#head{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+      }
+      #img_perfil img{
+            margin-top: 40%;
+            width: 60%;
+      }
+      #name_p {
+            margin-top: -11%;
+            width: 60%;
+      }
+      .options{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+      }#butt1, #butt2, #butt3, #butt4{
+            width: 60%;
+            height: 6em;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }#butt1 i, #butt2 i, #butt3 i, #butt4 i{
+            font-size: 2.3em;
+            color: black;
+      }#but_p{
+            display: flex;
+      }#about {
+            padding: 5%;
+            margin-top: 0%;
+            width: 50%;
+      }#name_ {
+            font-size: 2em;
+            text-align: center;
+      }
+}
+@media screen and (min-width: 900px) {
+      #about {
+            margin-top: 3%;
+            padding: 8%;
+            margin-left: -10%;
+      }#img_perfil img{
+            border: 3px solid black;
+      }#name_p {
+            margin-top: -9%;
+      }#head {
+            width: 35%;
+      }
+}
+@media screen and (min-width: 1024px) {
+      
+}
