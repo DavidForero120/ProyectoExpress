@@ -8,16 +8,8 @@
     "start": "node ejercicio2",
     "dev": "nodemon --watch ./ejercicio2.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DavidForero120/ProyectoExpress.git"
-  },
   "author": "david",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DavidForero120/ProyectoExpress/issues"
-  },
-  "homepage": "https://github.com/DavidForero120/ProyectoExpress#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
