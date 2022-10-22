@@ -118,6 +118,173 @@
 }.active{
       display: flex;
 }
+
+/*---------------Resume---------------------*/
+.resume_{
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
+      display: none;
+}
+.res{
+      display: flex;
+}
+#name_R{
+      margin-bottom: -5%;
+}
+.resume_ h1{
+      width: 100%;
+      height: 1.7em;
+      font-size: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3px;
+}
+#hr:hover{
+      background-color: rgb(255, 255, 0);
+      border: yellow;
+      transition: 1s;
+}
+#hr{
+      width: 1.5em;
+      height: 0.5em;
+      background-color: black;
+      border: black;
+      margin-bottom: 2%;
+      margin-top: 5%;
+}
+#exp_R{
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.2em;
+      
+}
+#exp_p{
+      margin-top: 3%;
+      margin-bottom: 3%;
+      line-height: 25px;
+}
+#education_R{
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;   
+}
+#p{
+      font-size: 1.5em;
+      font-weight: bold;
+}
+#est_p{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      line-height: 25px;
+      font-size: 1.2em;
+}
+#conoci_R{
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+#con_p{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+}
+#con_p div p{
+      line-height: 30px;
+}
+#herr{
+      font-size: 1.2em;
+}
+#od{
+      color: rgb(36, 33, 33);
+}
+#li{
+      color: rgb(107, 87, 0);
+}
+
+
+/*----------Contact--------------*/
+
+.contact_{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    display: none;
+}
+.cont_off{
+      display: flex;
+}
+
+.contact_ h1{
+      text-align: center;
+      font-size: 1.7em;
+      margin-bottom: 5%;
+}
+#tit_{
+      color: indigo;
+}
+#hr_t{
+      width: 100%;
+      background: black;
+      height: 2px;
+      margin-bottom: 5%;
+}
+
+#cards_{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+#card_ iframe{
+      height: 130px;
+      width: 100%;
+      padding: 0%; 
+}
+
+#card_{
+      border: 1px solid rgb(110, 110, 110);
+      padding: 5%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      border-radius: 3px;
+      height: 130px;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+}
+#card_ i{
+      font-size: 1.4em;
+      color: indigo;
+}
+#hr_c{
+      width: 100%;
+      background-color: indigo;
+}
+#repo{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+}
+#repo i{
+      font-size: 2em;
+}
+#git i{
+      color: black;
+}
+#git_l i{
+      color: orange;
+}
 @media screen and (min-width: 500px) {
       #name_p{
             margin-top: -5%;
@@ -149,6 +316,43 @@
       #info_personal p{
             font-size: 1.2em;
       }
+      /*-----------Resume---------------*/
+      #exp_p, #est_p{
+            text-align: center;
+            font-size: 1.29em;
+            line-height: 30px;
+      }
+      #p{
+            font-size: 1.7em;
+      }
+      #resume_ h1{
+            font-size: 2.8em;
+            margin-top: -4%;
+      }
+      /*------Contact-------------*/
+      .contact_ h1 {
+            font-size: 2em;
+      }
+      #card_{
+            height: 150px;
+            width: 25%;
+      }#card_ i {
+            font-size: 1.6em;
+            margin-top: -2%;
+      }
+      #tit_ {
+            font-weight: bold;
+            font-size: 1.15em;
+      }#cards_ {
+            margin-bottom: 5%;
+      }
+      #pa_{
+            font-size: 1.1em;
+      }
+      #repo i{
+            font-size: 2.7em;
+      }
+      
 }
 @media screen and (min-width: 720px) {
       #hoja_container{
@@ -195,6 +399,30 @@
             font-size: 2em;
             text-align: center;
       }
+
+      /*------------Resume--------------*/
+
+      #resume_ {
+            width: 50%;
+            padding: 0%;
+      }
+      #resume_ h1{
+            display: none;
+      }
+      #exp_p, #est_p p {
+            text-align: justify;
+            font-size: 1em;
+            /* line-height: 30px; */
+      }
+      /*------Contact------------*/
+      .contact_ {
+            width: 50%;
+            margin-top: 6%;
+      }#card_ {
+            height: 160px;
+            width: 30%;
+      }
+
 }
 @media screen and (min-width: 900px) {
       #about {
@@ -209,6 +437,14 @@
             width: 35%;
             margin-left: 5%;
       }
+      /*-----------Resume-------------*/
+      #resume_{
+            margin-top: 0%;
+      }#est_p{
+            font-size: 20px;
+      }#con_p { 
+            justify-content: space-between;
+        }
 }
 @media screen and (min-width: 1024px) {
       #head {
@@ -225,6 +461,23 @@
             margin-left: 0%;
             margin-top: -9%;
       }
+      /*-------------Resume------------*/
+      #resume_{
+            margin-top: -5%;
+      }
+      #exp_p, #est_p p {
+            font-size: 1.2em;
+        }
+
+
+        /*-----Contact-------*/
+        #contact_{
+            margin-top: 2%;
+            margin-right: 5%;
+        }#card_ {
+            height: 135px;
+            width: 23%;
+        }
 }
 @media screen and (min-width: 1200px) {
       #about {
@@ -238,6 +491,19 @@
             margin-top: -13%;
             font-size: 1.2em;
       }
+      /*-------Contact----------*/
+      #card_ {
+            height: 170px;
+            width: 30%;
+      }#tit_ {
+            font-size: 1.4em;
+      }#card_ i {
+            font-size: 2em;
+      }
+      #pa_ {
+            font-size: 1.2em;
+      }
+      
 }
 @media screen and (min-width: 1400px) {
       #hoja_container {
@@ -256,4 +522,12 @@
             display: flex;
             font-size: 1.3em;
       }
+      /*-----------Resume----------------*/
+      #resume_ {
+            margin-top: -5%;
+            width: 40%;
+      }#exp_p, #est_p p, #herr p{
+          font-size: 1.2em;   
+      }
+      
 }
