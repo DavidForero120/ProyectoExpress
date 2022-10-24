@@ -47,8 +47,17 @@
       border-radius: 5px;
       
 }#butt1 i, #butt2 i,  #butt3 i, #butt4 i{
-      color: white;
+      color: indigo;
       font-size: 1.2em;
+}
+#butt1:hover, #butt2:hover, #butt4:hover{
+      background-color: black;
+      color: white;
+      transition: 0.8s;
+}
+#butt1 i:hover, #butt2 i:hover, #butt4 i:hover{
+      color: white;
+      transition: 0.5s;
 }
 .options{
       width: 100%;
@@ -289,12 +298,14 @@
       #name_p{
             margin-top: -5%;
       }
-      #butt1, #butt2, #butt3, #butt4 {
+      #butt1, #butt2, #butt4 {
             width: 6em;
       }
-      #butt1 i, #butt2 i, #butt3 i, #butt4 i{
+      #butt1 i, #butt2 i, #butt4 i{
             font-size: 1.5em;
       }
+      
+
       #about{
             margin-top: 8%;
       }
