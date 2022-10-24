@@ -216,7 +216,7 @@
       color: rgb(36, 33, 33);
 }
 #li{
-      color: rgb(107, 87, 0);
+      color: rgb(239, 255, 8);
 }
 
 
@@ -497,22 +497,66 @@
             margin-left: -4%;
             margin-top: -2%;
         }
-      #name_p {
+        #name_{
+            font-size: 1.5em;
+            margin-top: 5%;
+        }
+            #name_p {
+            width: 62%;
             height: 3em;
-            margin-top: -13%;
-            font-size: 1.2em;
+            margin-top: -20%;
+            font-size: 1em;
+      }#head{
+            width: 20%;
+            margin-top: -5%;
+            margin-left: 20%;
       }
+      #butt1 i, #butt2 i, #butt3 i, #butt4 i {
+            font-size: 2em;
+        }
+        #about {
+            width: 37%;
+            margin-left: -4%;
+        }
+        /*---------Resume--------*/
+        #p {
+            font-size: 1.5em;
+        }
+        #exp_p, #est_p p {
+            font-size: 1em;
+        }
+        #resume_ {
+            width: 35%;
+            margin-top: -2%;
+            margin-left: 5%;
+        }
+
       /*-------Contact----------*/
       #card_ {
-            height: 170px;
-            width: 30%;
-      }#tit_ {
-            font-size: 1.4em;
+            height: 147px;
+            width: 28%;
+           
+      }
+      #card_ i {
+            font-size: 1.7em;
       }#card_ i {
             font-size: 2em;
       }
       #pa_ {
-            font-size: 1.2em;
+            font-size: 0.8em;
+      }
+      #contact_ {
+            width: 35%;
+            margin-top: -2%;
+            margin-right: 5%;
+      }
+      #cards_ {
+            margin-bottom: 5%;
+            gap: 0%;
+      }
+      #but_p {
+            display: flex;
+            font-size: 0.8em;
       }
       
 }
@@ -521,9 +565,14 @@
             display: flex;
             justify-content: center;
         }
+        #head {
+            width: 20%;
+            margin-top: -5%;
+            margin-left: 5%;
+        }
         #name_p {
             height: 3em;
-            margin-top: -14%;
+            margin-top: -23%;
             font-size: 1.2em;
             border-bottom-right-radius: 1px;
             border-bottom-left-radius: 1px;
@@ -539,6 +588,9 @@
             width: 40%;
       }#exp_p, #est_p p, #herr p{
           font-size: 1.2em;   
+      }
+      #exp_p, #est_p p, #herr p {
+            font-size: 1em;
       }
       
 }
