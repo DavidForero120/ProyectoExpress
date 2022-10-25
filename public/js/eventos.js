@@ -1,6 +1,6 @@
 const bot1 = document.getElementById('butt1');
 const bot2 = document.getElementById('butt2');
-const bot3 = document.getElementById('butt4');
+//const bot3 = document.getElementById('butt4');
 
 /* parts*/
 const about = document.getElementById('about');
@@ -20,8 +20,8 @@ bot2.addEventListener('click', ()=>{
       cont.classList.replace('cont_off','contact_');
 });
 
-bot3.addEventListener('click', ()=>{
+/*bot3.addEventListener('click', ()=>{
       cont.classList.toggle('cont_off');
       about.classList.replace('active', 'about');
       resum.classList.replace('res', 'resume_');
-})
+})*/

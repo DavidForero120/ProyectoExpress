@@ -222,13 +222,13 @@
 
 /*----------Contact--------------*/
 
-.contact_{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    display: none;
-}
+.contact_ {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
 .cont_off{
       display: flex;
 }
@@ -426,12 +426,10 @@
             /* line-height: 30px; */
       }
       /*------Contact------------*/
-      .contact_ {
-            width: 50%;
-            margin-top: 6%;
-      }#card_ {
+      #card_ {
             height: 160px;
-            width: 30%;
+      }#repo {
+            width: 32em;
       }
 
 }
@@ -483,8 +481,8 @@
 
         /*-----Contact-------*/
         #contact_{
-            margin-top: 2%;
-            margin-right: 5%;
+            margin-top: 0%;
+
         }#card_ {
             height: 135px;
             width: 23%;
@@ -515,8 +513,13 @@
             font-size: 2em;
         }
         #about {
+            margin-top: -25%;
             width: 37%;
             margin-left: -4%;
+        }
+        #hoja_container {
+            /* display: flex; */
+            padding: 5%;
         }
         /*---------Resume--------*/
         #p {
@@ -543,13 +546,13 @@
             font-size: 2em;
       }
       #pa_ {
-            font-size: 0.8em;
+            font-size: 1em;
       }
       #contact_ {
-            width: 35%;
-            margin-top: -2%;
-            margin-right: 5%;
-      }
+            margin-top: 0%; 
+            margin-right: 0%; 
+        }
+     
       #cards_ {
             margin-bottom: 5%;
             gap: 0%;
@@ -570,6 +573,7 @@
             margin-top: -5%;
             margin-left: 5%;
         }
+        
         #name_p {
             height: 3em;
             margin-top: -23%;
@@ -591,6 +595,13 @@
       }
       #exp_p, #est_p p, #herr p {
             font-size: 1em;
-      }
+      }.contact_ h1 {
+            font-size: 2.3em;
+            margin-bottom: 2%;
+        }#pa_ {
+            font-size: 1.4em;
+        }#tit_ {
+            font-size: 1.3em;
+        }
       
 }

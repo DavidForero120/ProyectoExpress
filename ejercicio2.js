@@ -12,11 +12,10 @@ ejercicio.set('views', __dirname + '/views');
 
 ejercicio.use('/vitae', require('./ruotes/rutes'));
 
+ejercicio.use('/vitae', require('./ruotes/rutes'));
+
 ejercicio.listen(port, ()=>{
-
-
-      console.log(`servidor inicializado en el puerto ${port}`);
-      
+      console.log(`servidor inicializado en el puerto ${port}`);  
 });
 
 
