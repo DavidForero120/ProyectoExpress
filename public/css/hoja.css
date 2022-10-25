@@ -1,6 +1,9 @@
 *{
       margin: 0;
 }
+a{
+      text-decoration: none;
+}
 #hoja_container{
       width: 100vw;
       height: 100vh;
@@ -50,14 +53,14 @@
       color: indigo;
       font-size: 1.2em;
 }
-#butt1:hover, #butt2:hover, #butt4:hover{
+#butt1:hover, #butt2:hover, #butt4:hover , #butt1 i:hover, #butt2 i:hover, #butt4 i:hover{
       background-color: black;
       color: white;
       transition: 0.8s;
 }
-#butt1 i:hover, #butt2 i:hover, #butt4 i:hover{
+
+#a:hover{
       color: white;
-      transition: 0.5s;
 }
 .options{
       width: 100%;
@@ -228,6 +231,10 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+  }#volv{
+      font-size: 1.5em;
+      color: black;
+      margin-bottom: 2%;
   }
 .cont_off{
       display: flex;
